@@ -2,8 +2,10 @@
 venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Variables de entorno (MUY IMPORTANTE)
+# Variables de entorno (IMPORTANTE - no subir contraseñas)
 .env
 
 # Logs
@@ -12,3 +14,13 @@ app.log
 
 # Archivos del sistema
 .DS_Store
+.vscode/
+.idea/
+
+# Base de datos local
+*.db
+*.sqlite
+*.sqlite3
+
+# Backups
+*.backup
